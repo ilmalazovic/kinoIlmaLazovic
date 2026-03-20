@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmovi</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="filmovi.html">Filmovi</a></li>
+                <li><a href="#">Raspored</a></li>
+                <li><a href="sala.html">Sala</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Repertoar</h1>
+
+        <div id="filter-zanr">
+            <label for="zanr">Odaberi žanr:</label>
+            <select id="zanr">
+                <option value="svi">Svi žanrovi</option>
+                <option value="akcija">Akcija</option>
+                <option value="drama">Drama</option>
+                <option value="komedija">Komedija</option>
+                <option value="animirani">Animirani</option>
+            </select>
+        </div>
+
+        <div id="akcija">
+            <h2>Akcija</h2>
+            <div class="film-grid">
+            </div>
+        </div>
+
+        <div id="drama">
+            <h2>Drama</h2>
+            <div class="film-grid">
+            </div>
+        </div>
+
+        <div id="komedija">
+            <h2>Komedija</h2>
+            <div class="film-grid">
+            </div>
+        </div>
+
+        <div id="animirani">
+            <h2>Animirani</h2>
+            <div class="film-grid">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Kino sala</p>
+    </footer>
+
+</body>
+
+</html>
