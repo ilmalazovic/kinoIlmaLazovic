@@ -358,3 +358,31 @@ footer {
         width: 100%;
     }
 }
+
+.navigacija-projekcija {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.navigacija-projekcija button {
+  background-color: #1a2044;
+  color: white;
+  border: 1px solid #4a5aad;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.navigacija-projekcija button:hover:not(:disabled) {
+  background-color: #2a3260;
+}
+
+.navigacija-projekcija button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
